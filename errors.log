@@ -1,0 +1,57 @@
+20210108 14:31:39 INFO  [main] ims.IMS IMS.java23 - What is your username
+20210108 14:31:41 INFO  [main] ims.IMS IMS.java25 - What is your password
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.qa.ims.utils.DBUtils.getConnection(DBUtils.java:45)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.qa.ims.utils.DBUtils.<init>(DBUtils.java:28)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.qa.ims.utils.DBUtils.getInstance(DBUtils.java:52)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.qa.ims.IMS.imsSystem(IMS.java:28)
+20210108 14:31:42 DEBUG [main] utils.DBUtils DBUtils.java38 - com.qa.ims.Runner.main(Runner.java:12)
+20210108 14:31:42 ERROR [main] utils.DBUtils DBUtils.java40 - Unknown database 'ims'
+20210108 14:31:42 INFO  [main] ims.IMS IMS.java31 - Which entity would you like to use?
+20210108 14:31:42 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20210108 14:31:42 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20210108 14:31:42 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20210108 14:31:42 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20210108 14:31:48 INFO  [main] ims.IMS IMS.java36 - What would you like to do with customer:
+20210108 14:31:48 INFO  [main] controller.Action Action.java38 - CREATE: To save a new item into the database
+20210108 14:31:48 INFO  [main] controller.Action Action.java38 - READ: To read an item from the database
+20210108 14:31:48 INFO  [main] controller.Action Action.java38 - UPDATE: To change an item already in the database
+20210108 14:31:48 INFO  [main] controller.Action Action.java38 - DELETE: To remove an item from the database
+20210108 14:31:48 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210108 14:31:51 INFO  [main] controller.CustomerController CustomerController.java47 - Please enter a first name
+20210108 14:31:53 INFO  [main] controller.CustomerController CustomerController.java49 - Please enter a surname
+20210108 14:31:55 DEBUG [main] dao.CustomerDaoMysql CustomerDaoMysql.java76 - [Ljava.lang.StackTraceElement;@7a560583
+20210108 14:31:55 ERROR [main] dao.CustomerDaoMysql CustomerDaoMysql.java77 - Unknown database 'ims'
+20210108 14:31:55 INFO  [main] controller.CustomerController CustomerController.java52 - Customer created
+20210108 14:31:55 INFO  [main] ims.IMS IMS.java31 - Which entity would you like to use?
+20210108 14:31:55 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20210108 14:31:55 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20210108 14:31:55 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20210108 14:31:55 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20210108 14:32:00 INFO  [main] ims.IMS IMS.java36 - What would you like to do with customer:
+20210108 14:32:00 INFO  [main] controller.Action Action.java38 - CREATE: To save a new item into the database
+20210108 14:32:00 INFO  [main] controller.Action Action.java38 - READ: To read an item from the database
+20210108 14:32:00 INFO  [main] controller.Action Action.java38 - UPDATE: To change an item already in the database
+20210108 14:32:00 INFO  [main] controller.Action Action.java38 - DELETE: To remove an item from the database
+20210108 14:32:00 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
+20210108 14:32:02 DEBUG [main] dao.CustomerDaoMysql CustomerDaoMysql.java44 - [Ljava.lang.StackTraceElement;@77a7cf58
+20210108 14:32:02 ERROR [main] dao.CustomerDaoMysql CustomerDaoMysql.java45 - Unknown database 'ims'
+20210108 14:32:02 INFO  [main] ims.IMS IMS.java31 - Which entity would you like to use?
+20210108 14:32:02 INFO  [main] domain.Domain Domain.java27 - CUSTOMER: Information about customers
+20210108 14:32:02 INFO  [main] domain.Domain Domain.java27 - ITEM: Individual Items
+20210108 14:32:02 INFO  [main] domain.Domain Domain.java27 - ORDER: Purchases of items
+20210108 14:32:02 INFO  [main] domain.Domain Domain.java27 - STOP: To close the application
+20210108 14:53:40 INFO  [main] ims.IMS IMS.java36 - What would you like to do with stop:
+20210108 14:53:40 INFO  [main] controller.Action Action.java38 - CREATE: To save a new item into the database
+20210108 14:53:40 INFO  [main] controller.Action Action.java38 - READ: To read an item from the database
+20210108 14:53:40 INFO  [main] controller.Action Action.java38 - UPDATE: To change an item already in the database
+20210108 14:53:40 INFO  [main] controller.Action Action.java38 - DELETE: To remove an item from the database
+20210108 14:53:40 INFO  [main] controller.Action Action.java38 - RETURN: To return to domain selection
